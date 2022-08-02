@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+#banner{
+    background: url("https://www.manageengine.com/images/product-banner.jpg") no-repeat #020426;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 30px 50px;
+    padding-bottom: 80px;
+}
+
+#banner > * {
+    margin-left: 30px;
+} 
+
+
+
+#banner h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+#banner hr{
+    width: 12%;
+    margin-left: 30px;
+    border: 1.5px solid orange;
+    background-color: orange;
+}
+
+#banner > p{
+    font-size: 1.1rem;
+    width: 80%;
+    font-weight: 400;
+}
+
+#banner_1{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    gap: 20px;
+}
+
+#banner_1 p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#banner_1 i{
+    border-radius: 25px;
+    background-color: black;
+    margin-right: 15px;
+    color: orange;
+}
