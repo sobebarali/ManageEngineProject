@@ -1,0 +1,735 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Navbar */
+#navDiv {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
+#navbar {
+  /* position: sticky;
+  top: 0; */
+  display: flex;
+  justify-content: space-between;
+  border: #444444;
+  padding: 0px 20px;
+  /* background-color: rgb(37, 57, 21); */
+}
+#login {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  margin-top: 22px;
+}
+.navImg {
+  /* padding: 0px 10px; */
+  width: 20%;
+  height: 55px;
+}
+.navImg > img {
+  width: 100%;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: #444444;
+  font-size: 15px;
+  transition: 1s;
+}
+a:hover {
+  color: #914608;
+}
+#eventSubmenu {
+  display: none;
+}
+.options h3:hover #eventSubmenu {
+  display: block;
+  position: absolute;
+  background-color: rgb(68, 68, 68);
+  /* background: transparent; */
+  /* margin-top: 15px; */
+  margin-left: -15px;
+  border-radius: 5px;
+}
+.options h3:hover #eventSubmenu ul {
+  display: block;
+  margin: 10px;
+  color: #ffffff;
+  list-style: none;
+}
+.options h3:hover #eventSubmenu ul li {
+  width: 200px;
+  padding: 10px;
+  background: transparent;
+  /* border-bottom: 1px dotted #FFFFFF; */
+}
+.options h3:hover #eventSubmenu ul a {
+  color: #ffffff;
+}
+.options h3:hover #eventSubmenu ul a:hover {
+  color: #914608;
+}
+#login {
+  padding-right: 30px;
+}
+.loginSubmenu {
+  display: none;
+}
+#login i:hover .loginSubmenu {
+  display: block;
+  position: absolute;
+  background-color: rgb(68, 68, 68);
+  /* background: transparent; */
+  /* margin-top: 15px; */
+  margin-left: -25px;
+  border-radius: 5px;
+}
+#login i:hover .loginSubmenu ul {
+  display: block;
+  text-align: left;
+  margin: 10px;
+  color: #ffffff;
+  list-style: none;
+}
+#login i:hover .loginSubmenu ul li {
+  width: 40px;
+  margin-right: 10px;
+  /* padding: 10px; */
+  background: transparent;
+  /* text-align: left; */
+  /* border-bottom: 1px dotted #FFFFFF; */
+}
+.loginSubmenu > ul > li > a {
+  font-size: 10px;
+  color: #ffffff;
+}
+#login i:hover .loginSubmenu ul li a:hover {
+  color: #914608;
+}
+.productSubmenu {
+  display: none;
+}
+.options > h3:nth-child(1):hover .productSubmenu {
+  display: block;
+  position: absolute;
+  background-color: #444444;
+  margin-left: -25px;
+  border-radius: 5px;
+}
+.productSubmenu > ul {
+  display: block;
+  text-align: left;
+  margin: 10px;
+  list-style: none;
+  /* width: 200px; */
+}
+#viewProduct{
+  background-color: #d82e2e;
+}
+.productSubmenu > ul > li {
+  width: 230px;
+  margin-right: 10px;
+  padding: 10px;
+  background: transparent;
+  /* text-align: left; */
+  border-bottom: 1px dotted #FFFFFF;
+}
+.productSubmenu > ul > li:hover{
+  background-color: #0c0b1b;
+}
+.productSubmenu > ul > li >a{
+  color: #ffffff;
+}
+#productSubmenu1{
+  display: none;
+}
+.productSubmenu > ul > li:hover #productSubmenu1{
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+  margin-left: 150px;
+  border-radius: 5px;
+}
+.productSubmenu > ul > li:hover #productSubmenu1 >ul{
+  list-style:none;
+  width: 300px;
+  height: 450px;
+  /* margin-left: 30px; */
+}
+.productSubmenu > ul > li:hover #productSubmenu1 >ul >li{
+  padding: 20px;
+}
+.productSubmenu > ul > li:hover #productSubmenu1 >ul >li>a:hover{
+  color: #d8012d;
+}
+/* container1 */
+#container1 > .div1 {
+  width: 100%;
+  position: absolute;
+  z-index: -20;
+}
+.div1 > img {
+  width: 100%;
+  height: 420px;
+}
+.div2 {
+  /* margin-top: 30px; */
+  display: flex;
+  justify-content: space-around;
+}
+.div2 > #bannerImg {
+  margin-top: 85px;
+}
+.div2 > #bannerImg > img {
+  width: 350px;
+  height: 334px;
+}
+.div2 > #bannerContent {
+  margin: 70px;
+  width: 509px;
+  height: 274px;
+}
+.div2 > #bannerContent > h1 {
+  /* height: 116px; */
+  width: 509px;
+  font: 48px zoho_puvi_regular;
+  /* font-weight: bold; */
+  color: #ffffff;
+  text-align: center;
+}
+.div2 > #bannerContent > p {
+  height: 54px;
+  color: #ffffff;
+  font: 17px zoho_puvi_regular;
+  text-align: center;
+}
+.div2 > #bannerContent > a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #d8012d;
+  font: 17px zoho_puvi_regular;
+  padding: 11px 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 150px;
+  transition: 1s;
+}
+.div2 > #bannerContent > a:hover {
+  background-color: #914608;
+}
+#container1 + p {
+  font: 17px zoho_puvi_regular;
+  color: #444444;
+  font-weight: 300;
+  text-align: center;
+  padding: 0px 150px;
+  font-weight: bold;
+}
+/* container2 */
+#container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 25px 0px;
+  padding: 0px 25px;
+}
+#container2 > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 10px;
+  margin: 10px;
+}
+#container2 > div > a > i {
+  font-size: 50px;
+}
+/* product button */
+#product-btn {
+  text-align: center;
+  padding: 10px;
+  margin: 0px 40%;
+  background-color: #d8012d;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  transition: 1s;
+}
+#product-btn:hover {
+  background-color: #914608;
+}
+#product-btn > a {
+  color: #ffffff;
+  font-weight: bold;
+}
+/* slideshoe container */
+#container3 {
+  width: 100%;
+  height: 425px;
+  overflow: hidden;
+  padding: 10px 0px;
+}
+#slideshow1 {
+  width: 300%;
+  height: 425px;
+  display: flex;
+}
+#slideshow1 input {
+  display: none;
+}
+.slideImg {
+  width: 33%;
+  height: 425px;
+  transition: 2s;
+}
+.slideImg img {
+  width: 100%;
+  height: 425px;
+}
+/* css for manual slider */
+.manualNavigation {
+  position: absolute;
+  width: 100%;
+  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn {
+  border: 2px solid #749e87;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+.manual-btn:hover {
+  background-color: #749e87;
+}
+#radio1:checked ~ .first {
+  margin-left: 0px;
+}
+#radio2:checked ~ .first {
+  margin-left: -33%;
+}
+#radio3:checked ~ .first {
+  margin-left: -66%;
+}
+
+.slideImg >img{
+  position: absolute;
+  z-index: -20;
+  /* margin-top: 70px; */
+  /* display: block; */
+
+}
+.slideImg >div{
+  width: 40%;
+}
+#span{
+  color: #d8012d;
+  font-size: 20px;
+}
+.slideImg >div >h1{
+  font: 28.5px Zoho_Puvi_Bold;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 0px 10px;
+  margin-top: 130px;
+}
+.slideImg >div >a{
+  padding: 10px 10px;
+  background-color: #d8012d;
+  color: #FFFFFF;
+  margin: 5px;
+  border-radius: 5px;
+}
+.slideImg >div >a:hover{
+  background: #914608;
+}
+/* css for auto slider */
+.autoNavigation {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin-top: 400px;
+  justify-content: center;
+}
+.autoNavigation div {
+  border: 2px solid #749e87;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.autoNavigation div:not(:last-child) {
+  margin-right: 40px;
+}
+#radio1:checked ~ .autoNavigation .auto-btn1 {
+  background: #749e87;
+}
+#radio2:checked ~ .autoNavigation .auto-btn2 {
+  background: #749e87;
+}
+#radio3:checked ~ .autoNavigation .auto-btn3 {
+  background: #749e87;
+}
+/* h2 tag */
+#container3 + h2 {
+  font: 27px zoho_puvi_semibold;
+  text-align: center;
+  padding: 20px 20%;
+  font-weight: bold;
+  color: #444444;
+}
+
+/* container4 */
+
+.container4-1,
+.container4-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 275px;
+  /* overflow: hidden; */
+}
+.container4-2 {
+  padding-top: 10px;
+}
+.container4-1 > div:not(:first-child) {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container4-2 > div:not(:last-child) {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container4-1 > div:not(:first-child) > a > img {
+  width: 160px;
+  height: 80px;
+  margin: 0px 30%;
+}
+.container4-2 > div:not(:last-child) > a > img {
+  width: 160px;
+  height: 80px;
+  margin: 0px 30%;
+}
+.container4-1 > div > a > span {
+  color: #333333;
+  text-align: center;
+  font: 15px Zoho_puvi_Regular;
+  font-weight: bold;
+}
+.container4-2 > div > a > span {
+  color: #333333;
+  text-align: center;
+  font: 15px Zoho_puvi_Regular;
+  font-weight: bold;
+}
+.imgDiv {
+  display: flex;
+  width: 482px;
+  height: 270px;
+  /* padding-right: 5px; */
+}
+.imgDiv > .imgDiv1 {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  /* z-index: -20; */
+}
+#image {
+  width: 100%;
+  /* position: absolute; */
+  z-index: -20;
+}
+.spanDiv {
+  position: absolute;
+  z-index: 1;
+  margin-top: 195px;
+}
+.spanDiv > p {
+  color: #ffffff;
+  background-color: #444444;
+  font: 15px Zoho_Puvi_Regular;
+  font-weight: 300;
+  line-height: 1.53em;
+}
+
+.container4-2 + div {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.container4-2 + div > a {
+  text-decoration: none;
+  font: 15px Zoho_Puvi_Regular;
+  color: #138cd6;
+  font-weight: bold;
+}
+.container4-2 + div + h3 {
+  color: #444444;
+  margin-left: 30%;
+  font: 18px Zoh0_Puvi_Semibold;
+  font-weight: bold;
+}
+
+/* Container5 */
+#container5 {
+  width: 97%;
+  height: 480px;
+  background: linear-gradient(to bottom, #293855 0, #0f111e 60%, #0c0b1b 100%);
+  padding: 20px;
+  overflow: hidden;
+}
+#container5 > h2 {
+  text-align: center;
+}
+#container5 > h2 > a {
+  color: #ffffff;
+  font-size: 48px;
+}
+#container5 > h2 > a:hover {
+  color: #914608;
+}
+#container5 > p {
+  color: #ffffff;
+  font: 15px Zoho_Puvi_Regular;
+  margin: 15px 0px;
+  text-align: center;
+}
+.container5-1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 40px;
+}
+.container5-1 > div > a > i {
+  font-size: 100px;
+  color: #277bcb;
+  transition: 1s;
+}
+.container5-1 > div > a > i:hover {
+  color: #914608;
+}
+.container5-1 > div > a > p {
+  color: #ffffff;
+  padding: 5px;
+  font: 15px Zoho_puvi_Regular;
+}
+/* #container5 > .container5-1 {
+  width: 100%;
+  position: absolute;
+  z-index: -20;
+  background: linear-gradient(to bottom, #293855 0, #0f111e 60%, #0c0b1b 100%);
+  height: 480px;
+} */
+
+/* container6 */
+#container6 {
+  display: flex;
+  padding: 70px 10px 10px;
+  gap: 10px;
+}
+#container6 > div {
+  display: flex;
+  width: 50%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.mediaImg {
+  margin-top: 60px;
+  width: 212px;
+  /* justify-content: center; */
+}
+.mediaImg > #media {
+  width: 100%;
+  height: 130px;
+}
+.container6-1 > h1 {
+  /* text-align: center; */
+  padding: 5px;
+  color: #d82e2e;
+  font: 37.5px Zoho_Puvi_Medium;
+}
+.container6-1 > p {
+  /* text-align: center; */
+  padding: 5px;
+  line-height: 1.5em;
+  font: 15px Zoho_Puvi_Regular;
+  color: #444444;
+}
+.container6-1 > p > a {
+  color: #056aa8;
+}
+#container6 + p {
+  text-align: center;
+  padding: 10px;
+}
+#container6 + p > a {
+  color: #056aa8;
+  font: 15px Zoho_Puvi_Regular;
+  font-weight: bold;
+}
+#news {
+  color: #34ad65;
+}
+/* container7 */
+
+#container7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 250px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#container7 > h4 {
+  color: #444444;
+  text-align: center;
+  font: 22.5px Zoho_Puvi_Regular;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+#container7 > a {
+  text-align: center;
+  font: 14.5px Zoho_Puvi_Semibold;
+  color: #ffffff;
+  margin-left: 40%;
+  margin-bottom: 70px;
+  padding: 11px 35px;
+  background: #e0483a;
+  width: 100px;
+  border-radius: 5px;
+}
+#container7 > a:hover {
+  background-color: #914608;
+}
+/* footer */
+#footerDiv {
+  display: flex;
+  width: 100%;
+  height: 370px;
+  background-color: #444444;
+}
+#companyDetail {
+  margin-left: 30%;
+  color: #ffffff;
+  padding-top: 10px;
+  font: 18px zoho_puvi_semibold;
+}
+.footList {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.footList > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  color: #ffffff;
+}
+.footList > div > li {
+  list-style: none;
+  font: 15px zoho_puvi_semibold;
+}
+#foot-col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 33%;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+#foot-col2 > div:first-child {
+  font: 18.5px Zoho_Puvi_Semibold;
+  font-weight: bold;
+  color: #eeeeee;
+  padding: 0px 0px 15px;
+  margin: 14px 0px 0px;
+}
+#foot-col2 > div:nth-child(2) > select {
+  width: 274px;
+  height: 45px;
+  background-color: #444444;
+  font: 14.5px Zoho_Puvi_Semibold;
+  font-weight: bold;
+  color: #bbbbbb;
+  padding: 7px 0px 7px 35px;
+}
+#foot-col2 > div:nth-child(3) {
+  color: #eeeeee;
+  font: 18.5px Zoho_Puvi_Semibold;
+  font-weight: bold;
+  margin: 22px 0px 0px;
+  padding: 0px 0px 5px;
+}
+#foot-col2 > div:nth-child(4) {
+  color: #bbbbbb;
+  font: 14.5px Zoho_Puvi_Semibold;
+  font-weight: bold;
+}
+#foot-col2 > div:nth-child(5) > input {
+  height: 40px;
+  width: 210px;
+  padding: 0px 15px;
+  color: #b5b5b8;
+  background: #ffffff;
+  border: none;
+}
+#foot-col2 > div:nth-child(5) > button {
+  color: #ffffff;
+  height: 40px;
+  background-color: #34ad65;
+  padding: 10px 30px;
+  border: none;
+}
+#foot-col3 > div:nth-child(1) {
+  color: #eeeeee;
+  font: 18.5px Zoho_Puvi_Semibold;
+  font-weight: bold;
+  padding: 0px 0px 15px;
+  margin: 15px 0px 0px;
+}
+.icon {
+  width: 310px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+}
+.icon a {
+  color: #ffffff;
+  width: 20px;
+}
+.icon > a > i {
+  font-size: 40px;
+  width: 50px;
+  /* padding: 0px 10px; */
+  /* height: 20px; */
+}
+.icon > a > i:hover {
+  color: #914608;
+}
+.icon + div {
+  color: #bbbbbb;
+  font: 18px Zoho_Puvi_Semibold;
+  font-weight: bold;
+  padding: 15px 0px;
+}
