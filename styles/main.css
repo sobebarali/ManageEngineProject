@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 /* Navbar */
 #navDiv {
@@ -21,7 +22,8 @@ body {
   display: flex;
   gap: 15px;
   text-align: center;
-  margin-top: 22px;
+  margin-top: 23px;
+  margin-right: 60px;
 }
 .navImg {
   /* padding: 0px 10px; */
@@ -49,6 +51,11 @@ a:hover {
 #eventSubmenu {
   display: none;
 }
+.options >h3 >a{
+  font: 15px Zoho_Puvi_Regular;
+  color: #444444;
+  font-weight: bold;
+}
 .options h3:hover #eventSubmenu {
   display: block;
   position: absolute;
@@ -69,6 +76,9 @@ a:hover {
   padding: 10px;
   background: transparent;
   /* border-bottom: 1px dotted #FFFFFF; */
+}
+.options h3:hover #eventSubmenu ul li:hover{
+  border-bottom: 0.5px solid #0f111e;
 }
 .options h3:hover #eventSubmenu ul a {
   color: #ffffff;
@@ -97,14 +107,15 @@ a:hover {
   margin: 10px;
   color: #ffffff;
   list-style: none;
+  height: 40px;
 }
 #login i:hover .loginSubmenu ul li {
-  width: 40px;
   margin-right: 10px;
   /* padding: 10px; */
   background: transparent;
   /* text-align: left; */
   /* border-bottom: 1px dotted #FFFFFF; */
+  float: left;
 }
 .loginSubmenu > ul > li > a {
   font-size: 10px;
@@ -165,6 +176,9 @@ a:hover {
 }
 .productSubmenu > ul > li:hover #productSubmenu1 >ul >li{
   padding: 20px;
+}
+.productSubmenu > ul > li:hover #productSubmenu1 >ul >li:hover{
+  border-bottom:0.5px solid #0f111e;
 }
 .productSubmenu > ul > li:hover #productSubmenu1 >ul >li>a:hover{
   color: #d8012d;
@@ -333,6 +347,7 @@ a:hover {
 }
 .slideImg >div{
   width: 40%;
+  /* overflow: hidden; */
 }
 #span{
   color: #d8012d;
@@ -650,11 +665,16 @@ a:hover {
   list-style: none;
   font: 15px zoho_puvi_semibold;
 }
+#foot-col1{
+   border-right: .1px solid #333333;
+}
 #foot-col2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 33%;
+  padding-left: 10px;
+  border-right: .1px solid #333333;
   /* justify-content: space-between; */
   /* align-items: center; */
 }
@@ -701,6 +721,10 @@ a:hover {
   padding: 10px 30px;
   border: none;
 }
+#foot-col3{
+  padding-left: 10px;
+}
+
 #foot-col3 > div:nth-child(1) {
   color: #eeeeee;
   font: 18.5px Zoho_Puvi_Semibold;
@@ -732,4 +756,36 @@ a:hover {
   font: 18px Zoho_Puvi_Semibold;
   font-weight: bold;
   padding: 15px 0px;
+}
+
+#fixedbtn{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* align-items: center; */
+  position: fixed;
+  z-index: 999;
+  top: 500px;
+  right: 0;
+  height: 120px;
+}
+#fixedbtn> div{
+  background-color: #34ad65;
+  height: 50px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+#fixedbtn> div:hover{
+  background-color: #333333;
+}
+#fixedbtn> div >a{
+  color: #FFFFFF;
+  font: 18px Zoho_Puvi_Bold;
+  font-weight: bold;
+}
+
+/* Extra css */
+.join{
+  color: #138cd6;
 }
