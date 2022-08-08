@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoho Corporation</title>
+    <link rel="stylesheet" href="./checkoutPage.css">
+    <link rel="SHORTCUT ICON" href="https://img.zohostatic.com/zohostore/Jul_07_2022_8/images/zoho.ico"/>
+</head>
+<body>
+    <div id="container">
+
+        <nav>
+            <img src="https://me.zoho.com/portal/mestore/viewAttachment?ft=0&filename=0.6704654162686438_manageengine.png" alt="logo">
+            <div id="rhs">
+                <input type="text">
+                <a href="">Sign in/Up</a>
+            </div>
+        </nav>
+        
+        <div id="container2">
+            <h1>Billing Information</h1>
+            <div id="subOrderSummary">
+                <span class="order_summary_tab_active">Order Summary</span>
+                <span class="billing_tab">Billing Information and Payment options</span>
+            </div>
+            <div class="input">
+                <p>Name</p>
+                <input type="text" id="name">
+            </div>
+            <div class="input">
+                <p>Email Address</p>
+                <input type="text" id="email">
+            </div>
+            <div class="input">
+                <p>Company Name</p>
+                <input type="text" id="cname">
+            </div>
+            <div class="input">
+                <p>Address</p>
+                <input type="text" id="addr">
+            </div>
+            <div class="input">
+                <p>City</p>
+                <input type="text" id="city">
+            </div>
+            <div class="input">
+                <p>Country</p>
+                <input type="text" id="country">
+            </div>
+            <div class="input">
+                <p>State / Province / Region</p>
+                <input type="text" id="state">
+            </div>
+            <div class="input">
+                <p>ZIP / Postal Code*</p>
+                <input type="text" id="pin">
+            </div>
+            <div class="input">
+                <p>Phone Number</p>
+                <input type="text" id="number">
+            </div>
+            <div class="input">
+                <p>Fax Number</p>
+                <input type="text" id="fax">
+            </div>
+            <span class="splitImage"></span>
+        <div id="container3">
+            <h1>Card Details</h1>
+        </div>
+        <div class="input">
+            <p>Credit Card Number</p>
+            <input type="text" id="cnumber">
+        </div>
+        <div class="input">
+            <p>Payment Type</p>
+            <img src="https://img.zohostatic.com/zohostore/Jul_07_2022_8/images/pay-method.png" alt="">
+        </div>
+        <div class="input">
+            <p>CSC (CVV2/CVC2) Number *</p>
+            <input type="text" id="cvv">
+        </div>
+        <div class="input">
+            <p>Expiration Date</p>
+            <input type="date" id="date">
+        </div>
+        <div class="input">
+            <p><b>Grand Total</b></p>
+            <h4 id="total"></h4>
+        </div>
+        </div>
+        <button id="btn" onclick="validateData()">Pay and Checkout</button>
+    </div>
+</body>
+</html>
+
+<script src="./checkoutPage.js"></script>

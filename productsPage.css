@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    background-color: rgba(32, 178, 171, 0.034);
+}
+
+#banner{
+    background: url("https://www.manageengine.com/images/product-banner.jpg") no-repeat #020426;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 30px 50px;
+    padding-bottom: 80px;
+}
+
+#banner > * {
+    margin-left: 30px;
+} 
+
+
+#banner h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+#banner hr{
+    width: 12%;
+    margin-left: 30px;
+    border: 1.5px solid orange;
+    background-color: orange;
+}
+
+#banner > p{
+    font-size: 1.1rem;
+    width: 80%;
+    font-weight: 400;
+}
+
+#banner_1{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    gap: 20px;
+}
+
+#banner_1 p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#banner_1 i{
+    border-radius: 25px;
+    background-color: black;
+    margin-right: 15px;
+    color: orange;
+}
+
+.product_intro{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 80px;
+    color: #04093E;
+    font-size: 1.3em;
+    font-family: 'Zoho_Puvi_Medium';
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.product_img{
+    width: 40px;
+    margin-top: 20px;
+}
+
+.product_detail h2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.product_detail p{
+    margin: 0;
+}
+
+
+.product_subIntro{
+    display: flex;
+    align-content: center;
+    margin: 30px 80px;
+    gap: 20px;
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    background: white;
+    border: 4px solid blue;
+    border-radius: 100px;
+    position: relative;
+    margin-top: 23px;
+}
+  
+.vertical-line {
+width: 1px;
+height: 102%;
+background: blue;
+margin: 0px auto 0 auto;
+}
+
+.lineEnd{
+height: 0px;
+}
+
+.subIntro_heading{
+font-family: 'Zoho_Puvi_Medium';
+}
+
+.subIntro_heading h2{
+font-size: 24px;
+font-weight: 650;
+color: #444444;
+}
+
+.subIntro_topic{
+display: grid;
+width: 70%;
+grid-template-columns: auto auto;
+gap: 0px 70px;
+margin-top: 40px;
+}
+
+.subIntro_topic > div{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 8px;
+padding: 20px;
+width: 100%;
+height: 80%;
+background-color: white;
+}
+
+.subIntro_topic > div:hover{
+background-color: rgba(32, 178, 171, 0.025);
+cursor: pointer;
+}
+
+
+.subIntro_footer{
+    display: flex;
+    gap: 20px;
+    color: blue;
+}
+
+.line{
+    border-right: 1px solid blue;
+    padding-right: 10px;
+}
+
+
+
+.subIntro_footer p:hover{
+color: green;
+cursor: pointer;
+}
+
+
+#msp{
+    margin: 150px 80px;
+    margin-bottom: 10px;
+    background-color: #04093E;
+    color: white;
+    padding: 30px 60px;
+}
+
+#msp_sub{
+    display: flex;
+}
+
+#msp_sub p{
+    margin-top: 0px;
+    font-size: 19px;
+    font-weight: 500;
+}
+#msp_sub button{
+    height: 45px;
+    width: 300px;
+    background-color: orange;
+    font-weight: 550;
+    font-size: 14px;
+    border-radius: 6px;
+    margin: 0px 100px;
+    border: none;
+}
+
+#msp_sub button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#endDiv{
+    display: flex;
+    margin: 0px 80px;
+    background-color: #151A62;
+    color: white;
+    padding: 40px 60px;
+    margin-bottom: 40px;
+}
+
+.line2{
+    border-right: 1px solid grey;
+    margin-right: 50px;
+}
+
+
+#endDiv >div{
+    margin-top: 0;
+}
+
+#endDiv p{
+    margin-top: 0px;
+    font-size: 19px;
+    font-weight: 500;
+}
+#endDiv button{
+    height: 45px;
+    width: 150px;
+    background-color: orange;
+    font-weight: 550;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+}
+
+
+#endDiv button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+
