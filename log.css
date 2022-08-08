@@ -1,0 +1,237 @@
+
+#logindiv{
+    display: flex;
+    gap: 2px;
+  justify-content: center;
+    align-items: center;
+    margin-top: 7.3%;
+  
+}
+#logindiv>div{
+    background-color: white;
+}
+#firstbox{
+   position: relative;
+    padding: 50px;
+    width: 391px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#firstbox >img{
+    width: 250px;
+    margin-bottom:20px ;
+
+}
+#firstbox>span{
+  display: block;
+    font-size: 24px;
+    font-weight: 520;
+   
+    font-family: sans-serif;
+}
+#firstbox>p{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+#showPassword,#alertmess{
+    font-size: 14px;
+    font-weight: 520;
+color: #0091ff;
+font-family: sans-serif;
+margin-left: 70.5%;
+margin-bottom: 30px;
+display: none;
+}
+#alertmess{
+    margin-left: 0%;
+    color: #ff8484;
+    margin-top: -10px;
+}
+#firstbox input{
+    font-size: 16px;
+    padding: 12px 12px;
+    width:398px;
+    display: block;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border: 1px solid gainsboro;
+}
+#firstbox #passwordBox{
+    display: none;
+    margin-bottom: 20px;
+    position: relative;
+   
+}
+i{
+    
+    position: absolute;
+    left: 84%;
+    top: 285px;
+    width: 030px;
+    color: grey;
+    display: none;
+}
+#changes{
+    font-size: 16px;
+    color: #0091ff;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: absolute;
+    left: 56%;
+    top: 220px;
+    display: none;
+}
+#eye,#eyeopen{
+    display: none;
+}
+#firstbox >form>#submit{
+    background-color: #0091ff;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#firstbox>form>p{
+    text-align: center;
+    color: #0091ff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+#br1{
+
+    height: 2px;
+    width: 420px;
+    background-color: #f1f1f1;
+
+}
+#options{
+    display: flex;
+    gap: 10px;
+
+}
+#options>div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#options>div:first-child{
+    width: 90px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#google{
+    background-image: url(https://css.zohostatic.com/iam/M_5281675/v2/components/images/signin_icons.png);
+    background-size: 205px auto;
+    background-position: 0px -195px;
+}
+#windows{
+    background-image: url();
+    background-image: url(https://css.zohostatic.com/iam/M_5281675/v2/components/images/signin_icons.png);
+    background-position: -26.5px -0px
+}
+#linkedlink{
+    background-image: url();
+    background-image: url(https://css.zohostatic.com/iam/M_5281675/v2/components/images/signin_icons.png);
+    background-position: -55px 1px
+}
+#fb{
+    background-image: url();
+    background-image: url(https://css.zohostatic.com/iam/M_5281675/v2/components/images/signin_icons.png);
+    background-position: -83px 1px
+}
+#twitter{
+    background-image: url();
+    background-image: url(https://css.zohostatic.com/iam/M_5281675/v2/components/images/signin_icons.png);
+    background-position: -110px 2px
+}
+#secbox,#thirdbox,#fourthbox{
+    transition: display 4s ease;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#secbox>img,#thirdbox>img,#fourthbox>img{
+    width:300px;
+    margin: 45px;
+    margin-top: 15px;
+}
+#secbox>span,#thirdbox>span,#fourthbox>span{
+    margin-top: -20px;
+   display: block;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:  sans-serif;
+    text-align: center;
+   
+}
+#secbox>div>span,#thirdbox>div>span,#fourthbox>div>span{
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+   margin: 8px 0px 0px;
+    font-family: sans-serif, serif;
+    text-align: center
+}
+#secbox>a,#thirdbox>a,#fourthbox>a{
+    display: inline;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 12px 20px;
+    border: 0px;
+    background-color: #ecf7fe;
+    color: #0091ff;
+    text-decoration: none;
+    width: 96px;
+    border-radius: 20px;
+   margin-top: 20px;
+}
+#circles>div,#circles1>div,#circles2>div,#circs>div{
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    background-color: #ddf2ff;
+   
+   
+   margin: 44px 0px 65px;
+}
+#circles,#circles1,#circles2,#circs{
+    display: flex;
+    gap: 10px;
+}
+#circles>div:nth-child(2),#circles1>div:nth-child(1),#circles2>div:nth-child(3){
+ background-color:#0091ff
+}
+@media screen and (max-width: 900px) {
+    
+   
+ #logindiv{
+        display: none;
+    }  
+  #logindi{
+    /* background-color: ; */
+    display: flex;
+    gap: 2px;
+  justify-content: center;
+    align-items: center;
+    margin-top: 7.3%;
+  }
+}
+@media screen and (max-width: 500px){
+#firstbox{
+  padding: 0px;
+}
+}
