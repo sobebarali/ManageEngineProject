@@ -1,0 +1,97 @@
+body{
+    background: #6aa5d8;
+    margin: 0;
+}
+
+#container{
+    margin: 0px 150px;
+    background: white;
+    border: 1px solid #397ba3;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: -5px -198px;
+    background-color: #c1dbf2;
+    height: 58px;
+    padding-top: 3px;
+    border-bottom: solid 2px #9ccfef;
+    padding: 0 10px;
+}
+
+h1{
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+#container2{
+    margin-right: 40%;
+    padding: 10px;
+}
+
+#subOrderSummary{
+    display: flex;
+    color: #fff;
+    border-radius: 15px;
+    background: #7BBB29;
+    height: 30px;
+    width: 600px;
+    text-align: center;
+}
+
+.order_summary_tab_active{
+    width: 200px;
+    display: inline-block;
+    padding: 8px 0;
+    background: #c4c4c4;
+    border-right: 2px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.billing_tab{
+    width: 400px;
+    display: inline-block;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 180px;
+    margin-top: 10px;
+}
+
+.input p{
+    margin: 7px;
+    font-size: 14px;
+}
+
+.input input{
+    padding-left: 80px;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+}
+
+.splitImage{
+    background: url("https://css.zohostatic.com/zohostore/Jul_07_2022_8/images/store-split.png") no-repeat 0 0;
+    width: 335px;
+    height: 5px;
+    display: block;
+    margin: 40px auto;
+    margin-left: 100px;
+}
+
+button{
+    padding: 15px;
+    border-radius: 15px;
+    background: #7BBB29;
+    border: none;
+    margin-left: 180px;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+}
