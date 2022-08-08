@@ -1,4 +1,21 @@
+import {navbar} from "../components/navbar.js"
+import{footer} from "../../components/footer.js";
+
+let footerDiv=document.getElementById("foooter")
+    footerDiv.innerHTML=footer();
+
+let nav = document.getElementById("navDiv");
+    nav.innerHTML = navbar();
+
+
 let tbody=document.getElementById("tbody");
+
+document.getElementById("cart").addEventListener("click", function(){
+    window.location.href = "../../cartPage.html";
+})
+
+
+
 
 const getdata=async(url)=>{
     try {
