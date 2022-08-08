@@ -218,20 +218,19 @@ i{
 @media screen and (max-width: 900px) {
     
    
- #logindiv{
-        display: none;
-    }  
-  #logindi{
-    /* background-color: ; */
-    display: flex;
-    gap: 2px;
-  justify-content: center;
-    align-items: center;
-    margin-top: 7.3%;
-  }
+ #secbox>img,#secbox>a,#secbox>div,#secbox>span{
+    display: none;
+ }  
+ #thirdbox>img,#thirdbox>a,#thirdbox>div,#thirdbox>span{
+    display: none;
+ }
+ #fourthbox>img,#fourthbox>a,#fourthbox>div,#fourthbox>span{
+    display: none;
+ }
+ 
 }
 @media screen and (max-width: 500px){
 #firstbox{
-  padding: 0px;
+  padding: 20px;
 }
 }

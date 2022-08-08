@@ -10,6 +10,10 @@ function storeInfo(){
         Password:password
     }
   postdata(user)
+  document.getElementById("name").value=""
+  document.getElementById("email").value=""
+  document.getElementById("password").value=""
+  alert("Sign up done")
 }
  async function postdata(user){
     try {
