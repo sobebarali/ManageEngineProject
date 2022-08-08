@@ -1,0 +1,67 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+#main{
+  display: flex;
+}
+#slide{
+  width: 30%;
+  height: 1000px;
+  background-color: aqua;
+}
+#tableDiv{
+  width: 70%;
+  margin-left: 10px;
+}
+thead{
+  background-color: #707D8A;
+  /* border: 1px solid #707D8A; */
+  padding: 15px;
+}
+table{
+  border: 1px solid #707D8A;
+  margin-top: 10px;
+}
+#tbody >tr >td{
+  padding: 5px;
+  font: 14px Zoho_Puvi_Regular;
+  font-weight: bold;
+}
+#cart{
+  padding: 9px;
+  margin-top: 5px;
+  color: #FFFFFF;
+  background-color: #A52A2A;
+  margin-left: 565px;
+  border-radius: 5px;
+  border: none;
+}
+#cart:hover{
+  background-color: #707D8A;
+}
+#tableDiv >div{
+  width: 70%;
+  color: #444444;
+  font: 15px Zoho_Puvi_Regular;
+  list-style: none;
+  font-weight: bold;
+}
+#viewCart{
+  background-color: #707D8A;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 3px;
+  /* float: right; */
+}
+#viewCart >a{
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #A52A2A;
+  padding: 15px;
+}
+#cartDiv{
+  width: 70%;
+  /* border-bottom:1px solid #707D8A; */
+}
+/* extra css */
