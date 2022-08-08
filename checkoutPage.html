@@ -27,47 +27,43 @@
             </div>
             <div class="input">
                 <p>Name</p>
-                <input type="text">
+                <input type="text" id="name">
             </div>
             <div class="input">
                 <p>Email Address</p>
-                <input type="text">
+                <input type="text" id="email">
             </div>
             <div class="input">
                 <p>Company Name</p>
-                <input type="text">
+                <input type="text" id="cname">
             </div>
             <div class="input">
                 <p>Address</p>
-                <input type="text">
+                <input type="text" id="addr">
             </div>
             <div class="input">
                 <p>City</p>
-                <input type="text">
+                <input type="text" id="city">
             </div>
             <div class="input">
                 <p>Country</p>
-                <input type="text">
+                <input type="text" id="country">
             </div>
             <div class="input">
                 <p>State / Province / Region</p>
-                <input type="text">
+                <input type="text" id="state">
             </div>
             <div class="input">
                 <p>ZIP / Postal Code*</p>
-                <input type="text">
-            </div>
-            <div class="input">
-                <p>Name</p>
-                <input type="text">
+                <input type="text" id="pin">
             </div>
             <div class="input">
                 <p>Phone Number</p>
-                <input type="text">
+                <input type="text" id="number">
             </div>
             <div class="input">
                 <p>Fax Number</p>
-                <input type="text">
+                <input type="text" id="fax">
             </div>
             <span class="splitImage"></span>
         <div id="container3">
@@ -75,7 +71,7 @@
         </div>
         <div class="input">
             <p>Credit Card Number</p>
-            <input type="text">
+            <input type="text" id="cnumber">
         </div>
         <div class="input">
             <p>Payment Type</p>
@@ -83,18 +79,20 @@
         </div>
         <div class="input">
             <p>CSC (CVV2/CVC2) Number *</p>
-            <input type="text">
+            <input type="text" id="cvv">
         </div>
         <div class="input">
             <p>Expiration Date</p>
-            <input type="date">
+            <input type="date" id="date">
         </div>
         <div class="input">
             <p><b>Grand Total</b></p>
-            <h4>USD $599</h4>
+            <h4 id="total"></h4>
         </div>
         </div>
-        <button>Pay and Checkout</button>
+        <button id="btn" onclick="validateData()">Pay and Checkout</button>
     </div>
 </body>
 </html>
+
+<script src="./checkoutPage.js"></script>
