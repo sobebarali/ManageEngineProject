@@ -45,10 +45,13 @@ const displayData = (checkedData,parentNode) =>{
             totalPriceElement.innerText = priceElement.innerText*quantity.value;
             grandPrice+=Number(totalPriceElement.innerText);
 
+
+                 
             document.getElementById("subtotalprice").textContent = grandPrice;
             document.getElementById("grandTotalprice").textContent = grandPrice;
             
-    
+            
+
             localStorage.setItem("totalPrice", JSON.stringify(grandPrice));
         }
         

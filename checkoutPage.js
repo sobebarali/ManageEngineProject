@@ -69,22 +69,11 @@ function validateData(){
     if(date.value ===""){
         alert("Please Enter Your Date");
     }
-    
+
+    alert("Payment Successfull")
+
+    window.location.href="./pages/index.html"
+
 }
-
-async function postdata(user){
-    try {
-        let res=await   fetch(`http://localhost:3000/users`,{
-            method:"POST",
-            body: JSON.stringify(user),
-            headers:{
-                "Content-Type":"application/json"
-            }
-        })
-    } catch (error) {
-        console.log(error)
-    }
- }
-
 
 document.getElementById("total").innerHTML=`USD ${totalPrice}$`;

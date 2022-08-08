@@ -58,11 +58,8 @@ if(filterarray.length==0){
     document.getElementById("submit").style.marginBottom="30px"
 }else{
     localStorage.setItem("userInfo",JSON.stringify(filterarray[0]));
-    window.location.href="http://127.0.0.1:5501/ManageEngineProject/pages/index.html";
-
+    window.location.href="./pages/index.html";
 }
-
-
 
 
  }

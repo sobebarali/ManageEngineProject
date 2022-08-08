@@ -14,6 +14,8 @@ function storeInfo(){
   document.getElementById("email").value=""
   document.getElementById("password").value=""
   alert("Sign up done")
+
+  window.location.href = "./log.html"
 }
  async function postdata(user){
     try {

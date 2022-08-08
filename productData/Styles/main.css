@@ -1,14 +1,18 @@
 body{
   padding: 0;
   margin: 0;
+  /* overflow-x: hidden; */
+}
+*{
+  font-family: sans-serif;
 }
 #main{
   display: flex;
 }
 #slide{
   width: 30%;
-  height: 1000px;
-  background-color: aqua;
+  /* height: 2000px; */
+  /* background-color: aqua; */
 }
 #tableDiv{
   width: 70%;
@@ -22,6 +26,7 @@ thead{
 table{
   border: 1px solid #707D8A;
   margin-top: 10px;
+  width: 100%;
 }
 #tbody >tr >td{
   padding: 5px;
@@ -29,23 +34,27 @@ table{
   font-weight: bold;
 }
 #cart{
-  padding: 9px;
-  margin-top: 5px;
+  padding: 5px;
+  /* margin-top: 5px; */
   color: #FFFFFF;
   background-color: #A52A2A;
-  margin-left: 565px;
+  float: right;
   border-radius: 5px;
   border: none;
 }
 #cart:hover{
   background-color: #707D8A;
 }
+#cartDiv >p{
+  margin-top: 0;
+}
 #tableDiv >div{
-  width: 70%;
+  width: 100%;
   color: #444444;
   font: 15px Zoho_Puvi_Regular;
   list-style: none;
   font-weight: bold;
+  margin-right: 15px;
 }
 #viewCart{
   background-color: #707D8A;
@@ -64,4 +73,36 @@ table{
   width: 70%;
   /* border-bottom:1px solid #707D8A; */
 }
-/* extra css */
+/* note div */
+#note{
+  margin-top: 45px;
+  /* border: 1px solid #707D8A; */
+  padding: 5px;
+  background-color: #F3EEEF   ;
+}
+/* premium div */
+#premium{
+  background-color: #F5EAEB;
+  /* border: 1px solid #707D8A; */
+  padding: 5px;
+  /* width: 60%; */
+  margin-bottom: 5px;
+  /* overflow: hidden; */
+}
+
+/* slide div */
+#slide >ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  list-style: none;
+}
+#slide >ul >li{
+  font: 22px Zoho_Puvi_Regular;
+  font-weight: 900;
+  border-bottom:  0.1px solid #EDEEDF ;
+}
+#slide >ul >li:hover{
+  background-color: #b1c4d8;
+}
