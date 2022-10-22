@@ -1,10 +1,10 @@
 # ManageEngine CLONE
 
-This was our project for Unit-4 Construct week at Masai School.
+This was our project for Unit-5 Construct week at Masai School.
 
-- [Click here](https://euphonious-maamoul-067472.netlify.app/) to see preview of our project.
+- [Click here](https://manage-engine.netlify.app/) to see preview of our project.
 
-It is a Swedish-founded, Dutch-headquartered multinational company that designs and sells ready-to-assemble furniture, kitchen appliances, and home accessories, among other goods and home services.
+A web application of an E-commerce websitethat offers enterprise IT management software.
 
 ## Credits
 
