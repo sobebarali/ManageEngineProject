@@ -9,7 +9,7 @@ It is a Swedish-founded, Dutch-headquartered multinational company that designs 
 ## Credits
 
 - Images : [manageengine.com](https://www.manageengine.com/)
-- Content : [manageengine.com]https://www.manageengine.com//)
+- Content : [manageengine.com](https://www.manageengine.com/)
 - References : [MDN Docs](https://developer.mozilla.org/en-US/) | [W3School](https://www.w3schools.com/)
 
 ## Tech Stack
